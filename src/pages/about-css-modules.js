@@ -1,7 +1,6 @@
 import React from "react"
-import Container from "../components/container"
 import styles from "./about-css-modules.module.css"
-import BasicLayout from "../layouts/BasicLayout";
+import BasicLayout from "../layouts/BasicLayout"
 
 const User = props => (
   <div className={styles.user}>
