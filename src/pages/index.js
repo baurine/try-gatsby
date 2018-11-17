@@ -1,8 +1,8 @@
 import React from "react"
-import Container from "../components/container"
+import BasicLayout from "../layouts/BasicLayout"
 
 export default () => (
-  <Container>
+  <BasicLayout>
     <h1>Richard Hamming on Luck</h1>
     <div>
       <p>
@@ -25,5 +25,5 @@ export default () => (
       </blockquote>
     </div>
     <p>Posted April 09, 2011</p>
-  </Container>
+  </BasicLayout>
 )

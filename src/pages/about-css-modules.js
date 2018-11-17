@@ -1,6 +1,7 @@
 import React from "react"
 import Container from "../components/container"
 import styles from "./about-css-modules.module.css"
+import BasicLayout from "../layouts/BasicLayout";
 
 const User = props => (
   <div className={styles.user}>
@@ -13,7 +14,7 @@ const User = props => (
 )
 
 export default () => (
-  <Container>
+  <BasicLayout>
     <h1>About CSS Modules</h1>
     <p>CSS Modules are cool</p>
     <User
@@ -24,5 +25,5 @@ export default () => (
       username="Bob Smith"
       avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
       excerpt="I'm Bob smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."/>
-  </Container>
+  </BasicLayout>
 )
