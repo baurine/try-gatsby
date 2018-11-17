@@ -1,7 +1,8 @@
 import React from "react"
+import Container from "../components/container"
 
 export default () => (
-  <div style={{ margin: `3rem auto`, maxWidth: 800 }}>
+  <Container>
     <h1>Richard Hamming on Luck</h1>
     <div>
       <p>
@@ -24,5 +25,5 @@ export default () => (
       </blockquote>
     </div>
     <p>Posted April 09, 2011</p>
-  </div>
+  </Container>
 )
