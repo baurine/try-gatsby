@@ -6,7 +6,8 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^2.0.33",
@@ -22,5 +23,8 @@
     "typography": "^0.16.17",
     "typography-theme-bootstrap": "^0.16.7",
     "typography-theme-lawton": "^0.15.10"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
