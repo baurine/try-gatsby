@@ -17,6 +17,7 @@ const NavHeader = ({ data }) => (
       <ListLink to="/about/">About</ListLink>
       <ListLink to="/contact/">Contact</ListLink>
       <ListLink to="/about-css-modules/">Css Modules</ListLink>
+      <ListLink to="/my-files/">Site Files</ListLink>
     </ul>
   </header>
 )
