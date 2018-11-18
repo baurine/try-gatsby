@@ -18,6 +18,7 @@ const NavHeader = ({ data }) => (
       <ListLink to="/contact/">Contact</ListLink>
       <ListLink to="/about-css-modules/">Css Modules</ListLink>
       <ListLink to="/my-files/">Site Files</ListLink>
+      <a href="https://github.com/baurine/try-gatsby">GitHub</a>
     </ul>
   </header>
 )
@@ -36,7 +37,7 @@ export default ({ children }) => (
   <StaticQuery
     query={query}
     render={data =>
-      <div style={{ margin: `0 auto`, maxWidth: 800, padding: `0 1rem` }}>
+      <div style={{ margin: `0 auto`, maxWidth: 800, padding: `20px 1rem` }}>
         <NavHeader data={data}/>
         {children}
       </div>
