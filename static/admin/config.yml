@@ -2,13 +2,15 @@ backend:
   name: github
   repo: baurine/try-gatsby
 
+# the uploaded assets will put in `/admin/static/assets/` folder
+# when build, the assets will output to `/public/assets/` folder
 media_folder: static/assets
 public_folder: assets
 
 collections:
   - name: blog
     label: Blog
-    folder: blog
+    folder: blog # the commited markdown file will put in `/blog/` folder
     create: true
     fields:
       - { name: path,  label: Path }
