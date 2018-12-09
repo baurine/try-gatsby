@@ -15,9 +15,8 @@ const NavHeader = ({ data }) => (
     <ul style={{ listStyle: `none`, float: `right` }}>
       <ListLink to="/">Home</ListLink>
       <ListLink to="/about/">About</ListLink>
-      <ListLink to="/contact/">Contact</ListLink>
-      <ListLink to="/about-css-modules/">Css Modules</ListLink>
       <ListLink to="/my-files/">Site Files</ListLink>
+      <a style={{marginRight: '1rem'}} href="/admin/">Admin</a>
       <a href="https://github.com/baurine/try-gatsby">GitHub</a>
     </ul>
   </header>
