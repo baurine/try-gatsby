@@ -119,3 +119,9 @@ Netlify CMS 是用来提供给非程序员使用的，界面友好的内容提�
           - { name: date,  label: Date, widget: date }
           - { name: title, label: Title }
           - { name: body,  label: Body, widget: markdown }
+
+## Contentful
+
+[Contentful](https://www.contentful.com/)，类似 Netlify CMS，只不过 Netlify CMS 只为你提供用户友好的输入界面，数据直接以 markdown 的文本形式存储在你的 git repo 中，而 Contentful 是存储在它的服务器上，并提供 API 供你访问这些数据，功能和灵活性会比 Netlify CMS 强大。
+
+- [In the trenches with Gatsby + Contentful + Netlify](https://medium.com/stories-from-upstatement/in-the-trenches-with-gatsby-contentful-netlify-53a7fea23d37)
